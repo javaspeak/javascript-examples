@@ -1,12 +1,16 @@
 
 // This example creates and returns Promises
 //
+// To run type:
+//
+//     node chain_promises_return_promises.js
+//
 // Output:
 //
 //    1
 //    2
 //    4
-
+//
 new Promise(function(resolve, reject) {
 
   setTimeout(() => resolve(1), 1000);

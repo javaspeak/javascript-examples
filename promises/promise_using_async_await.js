@@ -1,6 +1,10 @@
 
 // the async and await keywords are an alternative way of using Promises.
 //
+// To run type:
+//
+// node promise_using_async_await.js
+//
 // Output is:
 //
 //    Error: Strings are not same

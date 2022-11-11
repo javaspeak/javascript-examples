@@ -1,9 +1,13 @@
 // This is a simple example of a promise
 //
+// To run type:
+//
+//     node promise.js
+//
 // The output is:
 //
-//    Promise resolved successfully
-
+//     Promise resolved successfully
+//
 const promise = new Promise(function (resolve, reject) {
     
     const string1 = "node is cool";

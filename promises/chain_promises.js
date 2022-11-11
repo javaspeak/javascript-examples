@@ -1,15 +1,19 @@
 
 // Note that "then" returns another promise
-
+//
 // Note that we purposely add an undefined variable called doesNotExist 
 // which triggers an error.  This error is caught in the catch
+//
+// To run type:
+//
+//     node chain_promises.js
 //
 // Output is:
 //
 //     1
 //     2
 //     Promise is rejectedReferenceError: doesNotExist is not defined
-
+//
 new Promise(function(resolve, reject) {
     
     setTimeout(() => resolve(1), 1000); // (*)
