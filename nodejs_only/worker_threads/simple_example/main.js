@@ -1,17 +1,17 @@
 
-// This example spawns off a worker thread and waits for it to complete
-// The main thread passes "hello John Doe" to the worker thread and the worker thread returns in
-// back to the main thread on completion as json.
+// This example spawns off a worker thread and waits for it to complete. The main thread passes 
+// "hello John Doe" to the worker thread and the worker thread returns in back to the main thread 
+// on completion as json.
 //
 // To run:
 //
-// node main.js
+//     node main.js
 //
 // Output:
 //
-// workerData: hello John Doe
-// Inside worker_example.js
-// { welcome: 'hello John Doe' }
+//     workerData: hello John Doe
+//     Inside worker_example.js
+//     { welcome: 'hello John Doe' }
 // 
 const { Worker } = require('worker_threads')
 
